@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibe Coding | 코딩의 새로운 패러다임</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Pretendard:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="blob-bg"></div>
+    <div class="blob-bg blob-bg-2"></div>
+
+    <nav class="navbar glass">
+        <div class="logo">VIBE<span>CODE</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">What is Vibe?</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#demo">Get Started</a></li>
+        </ul>
+        <button class="btn btn-primary">Start Coding</button>
+    </nav>
+
+    <main>
+        <header class="hero">
+            <div class="hero-content">
+                <div class="badge fade-up">✨ The Future of Software Development</div>
+                <h1 class="fade-up delay-1">Just feel it.<br><span>Let AI build it.</span></h1>
+                <p class="fade-up delay-2">바이브 코딩은 복잡한 문법 대신, 개발자의 '의도'와 '느낌(Vibe)' 만으로 소프트웨어를 완성하는 새로운 개발 패러다임입니다. 자연어로 아이디어를 던지면, AI가 코드를 작성합니다.</p>
+                <div class="cta-buttons fade-up delay-3">
+                    <button class="btn btn-primary lg">경험해보기 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></button>
+                    <button class="btn btn-secondary lg">더 알아보기</button>
+                </div>
+            </div>
+            <div class="hero-image glass fade-up delay-4">
+                <div class="code-editor">
+                    <div class="editor-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <p class="editor-title">user_prompt.txt</p>
+                    </div>
+                    <div class="editor-body">
+                        <p class="comment">// 💡 User Vibe</p>
+                        <p class="typing-text">"Make a beautiful floating dashboard with a dark neon theme and smoothly animating charts."<span class="cursor">|</span></p>
+                        <div class="ai-response hide">
+                            <p class="comment"><br>// 🤖 AI Agent Generating...</p>
+                            <p class="code"><span class="keyword">function</span> <span class="func">createDashboard</span>() {</p>
+                            <p class="code indent"><span class="keyword">const</span> dashboard = <span class="keyword">new</span> <span class="func">GlassmorphicUI</span>();</p>
+                            <p class="code indent">dashboard.<span class="func">applyTheme</span>(<span class="string">'dark-neon'</span>);</p>
+                            <p class="code indent"><span class="keyword">return</span> dashboard.<span class="func">render</span>();</p>
+                            <p class="code">}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="about" class="about">
+            <h2 class="section-title fade-up">코드 없는 코딩, <span>Vibe Coding</span></h2>
+            <div class="grid-2">
+                <div class="glass card fade-up">
+                    <div class="card-icon">🧠</div>
+                    <h3>문법에서 의도로</h3>
+                    <p>더 이상 세미콜론이나 괄호 위치에 시간을 낭비하지 마세요. 당신이 원하는 것을 자연어로 설명하면, AI가 최적의 코드로 번역합니다.</p>
+                </div>
+                <div class="glass card fade-up delay-1">
+                    <div class="card-icon">⚡</div>
+                    <h3>초고속 이터레이션</h3>
+                    <p>디자인과 로직을 수 분 만에 화면에 구현합니다. 아이디어를 즉시 테스트하고 가장 빠르게 피드백을 받아 서비스를 발전시키세요.</p>
+                </div>
+                <div class="glass card fade-up delay-2">
+                    <div class="card-icon">🎨</div>
+                    <h3>창의성에 집중</h3>
+                    <p>개발자는 이제 코더가 아닌 '디렉터'입니다. 제품의 방향성, 사용자 경험(UX), 그리고 전체적인 아키텍처 역량에 온전히 집중할 수 있습니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features glass fade-up">
+            <div class="feature-content">
+                <h2>어떻게 작동하나요?</h2>
+                <ul class="steps">
+                    <li>
+                        <div class="step-num">01</div>
+                        <div class="step-text">
+                            <h4>상상하기 (Vibe)</h4>
+                            <p>만들고 싶은 기능이나 디자인의 느낌을 텍스트나 음성으로 자유롭게 묘사합니다.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="step-num">02</div>
+                        <div class="step-text">
+                            <h4>생성하기 (Generate)</h4>
+                            <p>에이전트 AI가 문맥을 이해하고, 가장 적합한 프레임워크와 스택으로 코드를 자동 작성합니다.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="step-num">03</div>
+                        <div class="step-text">
+                            <h4>수정하기 (Iterate)</h4>
+                            <p>"버튼을 조금 더 둥글게 해줘", "배경을 더 다크하게" 와 같은 대화형 지시로 결과물을 다듬습니다.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="feature-visual">
+                <div class="glowing-orb"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass">
+        <p>&copy; 2026 VibeCode Paradigm. Created with pure AI vibes.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
